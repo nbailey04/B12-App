@@ -5,10 +5,10 @@ const fetch = (...args) => import("node-fetch").then(mod => mod.default(...args)
 
 const payload = {
   action_run_link: "https://github.com/YOURNAME/YOURREPO/actions/runs/123456789",
-  email: "nathan@example.com",
+  email: "work.nbailey2004@gmail.com",
   name: "Nathan Bailey",
-  repository_link: "https://github.com/YOURNAME/YOURREPO",
-  resume_link: "https://your-resume-link",
+  repository_link: "https://github.com/nbailey04/B12-App",
+  resume_link: "https://raw.githubusercontent.com/nbailey04/B12-App/57a8bb3971f610986ac939c4ffcb0bec4a69b3a3/NathanBailey_Resume_2026.pdf",
   timestamp: new Date().toISOString()
 };
 
