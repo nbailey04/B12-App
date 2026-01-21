@@ -4,7 +4,7 @@ const crypto = require("crypto");
 const fetch = (...args) => import("node-fetch").then(mod => mod.default(...args));
 
 const payload = {
-  action_run_link: "https://github.com/YOURNAME/YOURREPO/actions/runs/123456789",
+  action_run_link: "https://github.com/nbailey04/B12-App/actions/workflows/b12-submit.yml",
   email: "work.nbailey2004@gmail.com",
   name: "Nathan Bailey",
   repository_link: "https://github.com/nbailey04/B12-App",
